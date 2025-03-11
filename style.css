@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #7a967a;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: transparent; 
+}
+
+h1 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.Wadah {
+  width: 600px;
+  background-color: #0000004b;
+  padding: 1rem;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  border: 2px solid #fff;
+}
+
+.Tab-Box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid #ffffff;
+  position: relative;
+}
+
+.Tab-Box .tab_btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  background: none;
+  border: none;
+  padding: 18px;
+  cursor: pointer;
+  transition: color 0.1s ease-in-out;
+}
+
+.Tab-Box .tab_btn.active {
+  color: #ffffff;
+}
+
+.satu {
+  padding: 10px;
+}
+
+.dua h2 {
+  padding: 5px;
+  text-align: center;
+  color: #efefef;
+  margin-bottom: 2rem;
+}
+
+.dua {
+  display: none;
+  padding: 20px;
+}
+
+.dua.active {
+  display: block;
+}
+
+.line {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  width: 90px;
+  height: 5px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+button {
+  background-color: #000000;
+  color: white;
+  padding: 10px 15px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 2px solid #000000;
+  color: #000000;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+}
+
+select,
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  background-color: #f4f2ff;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px;
+  background-color: #000000;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+td,
+th {
+  padding: 12px;
+  text-align: left;
+  border-radius: 6px;
+}
+
+th {
+  background-color: #6a5acd;
+  color: white;
+}
+
+td {
+  background-color: #e8e6ff;
+}
+
+.hasil {
+  margin-top: 20px;
+  font-size: 1.2rem; 
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: none;
+}
+
+.input-container select {
+  margin-bottom: .5em;
+  outline: none;
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.input-container input {
+  margin-bottom: .5em;
+  outline: none;
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.input-container select, .input-container input {
+  font-size: 1rem;
+  font-style: italic;
+}
